@@ -5,7 +5,7 @@
  <br>
  • A markdown of this script can be found at index.html or the web address for this page which is https://wwiskes.github.io/habitatfinder/
  <br>
- • A run-able markdown can be found at HabitatFinder.ipynb
+ • A run-able markdown can be found at habitatFinder.ipynb
  <br>
  • A shapefile of the kernel contour output is included here as an example, as well as a raster of the modeloutput as well
  <br>
