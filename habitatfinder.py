@@ -29,7 +29,7 @@ veg = gis.content.get("6341228ec82a4bfbaf52d977a14e99ce")
 b = time.perf_counter()/60
 print(f"Layers loaded: {round(b - a, 2)} minutes")
 
-#Load vegitation layer
+#Load vegetation layer
 veg2 = veg.layers[0]
 veg3 =veg2.url
 veg4 = r"memory\veg"
@@ -37,14 +37,14 @@ DM.MakeFeatureLayer(veg3, veg4)
 c = time.perf_counter()/60
 print(f"Veg feature generated: {round(c - b, 2)} minutes")
 
-#Select vegitation type 
+#Select vegetation type 
 selection = 'Forest & Woodland' #input habitat type here
 where = "LIFEFORM = '" + selection + "'"
 DM.SelectLayerByAttribute(veg4, "NEW_SELECTION", where, None)
 d = time.perf_counter()/60
 print(f"Veg type selected: {round(d - c, 2)} minutes")
 
-#Make conditional vegitation layer raster
+#Make conditional vegetation layer raster
 vegCon = r"memory\veg2"
 path = script + r"\veg.shp"
 CO.FeatureClassToShapefile(veg4, script)
