@@ -108,7 +108,7 @@ myWSTable = WSTable([[vegCon, "VALUE", vegProp], [demCon, "VALUE", demProp],
 outWeighted = WeightedSum(myWSTable)
 k = time.perf_counter()/60   
 print(f"Weighted sum complete: {round(k - j, 2)} minutes")
-# Save the output
+# Save the output 
 output = script + r"/modeloutput"
 outWeighted.save(output)
 
