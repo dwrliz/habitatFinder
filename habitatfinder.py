@@ -91,7 +91,7 @@ print(f"DSM conditional raster created: {round(j - i, 2)} minutes")
 
 # Layer Weights, doesn't really effect the model if using 
 # boolean rasters like we are now, this model however could use
-# continous rasters, in which case these weights would effect model ooutcomes
+# continous rasters, in which case these weights would effect model outcomes
 vegInput = 2
 demInput = 1
 dsmInput = 1
