@@ -112,14 +112,14 @@ print(f"Weighted sum complete: {round(k - j, 2)} minutes")
 output = script + r"/modeloutput"
 outWeighted.save(output)
 
-#Make contour around high habitat probability model regions with highest kernal density
+#Make contour around high habitat probability model regions with highest kernel density
 points = script + r"\points.shp"
 points2 = script + r"\points2.shp"
 CO.RasterToPoint(output, points, "Value")
 AN.Select(points, points2, "grid_code > 0.9")
-kernal = KernelDensity(points2, "NONE", 100, None, "SQUARE_KILOMETERS", "DENSITIES", "PLANAR")
-contour = script + r"\kernal.shp"
-DDD.Contour(kernal, contour, 1000, 20, 1, "CONTOUR", None)
+kernel = KernelDensity(points2, "NONE", 100, None, "SQUARE_KILOMETERS", "DENSITIES", "PLANAR")
+contour = script + r"\contour.shp"
+DDD.Contour(kernel, contour, 1000, 20, 1, "CONTOUR", None)
 l = time.perf_counter()/60   
 print(f"Contour complete: {round(l - k, 2)} minutes")
 
