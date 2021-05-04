@@ -3,7 +3,7 @@
  <br>
  • The script is published here as habitatfinder.py
  <br>
- • A markdown of this script can be found at index.html or the web address for this page which is https://wwiskes.github.io/habitatfinder/
+ • A markdown of this script can be found at index.html or the web address for this page which is https://wwiskes.github.io/habitatFinder/
  <br>
  • A run-able markdown can be found at habitatFinder.ipynb
  <br>
