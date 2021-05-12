@@ -1,5 +1,5 @@
 # habitatFinder
- Python script for creating a weighted sum with user defined inputs in ArcGIS Pro using portal items. It considers elevation, vegitation height, and vegitation type.
+ Python script for creating a weighted sum with user defined inputs in ArcGIS Pro using portal items. It considers elevation, vegetation height, and vegetation type.
  <br>
  • The script is published here as habitatfinder.py
  <br>
