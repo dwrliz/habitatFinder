@@ -14,6 +14,6 @@
 <p align="center">
   <img src="./console.PNG" title="photo" width="100%" />
 </p>
-Link to sample output published to Portal. This sample model is for Black-throated Gray Warbler (BTYW) breeding ranges in Marin, California.
+Link below to sample output published to Portal. This sample model is for Black-throated Gray Warbler (BTYW) breeding ranges in Marin, California.
 <br>
 https://arcg.is/4ib0S0
