@@ -7,7 +7,7 @@
  <br>
  • A run-able markdown can be found at habitatFinder.ipynb
  <br>
- • A shapefile of the kernel contour output is included here as an example, as well as a raster of the modeloutput as well
+ • A shapefile of the kernel contour output is included here as an example, as well as a raster of the modeloutput
  <br>
  Pictured below is a print out of what this looks like run in the Spyder console. You can see run times are pretty long, this is primarily because of pulling files out of Portal. Make certain to really have your parameters defined the way you want before running. The scripts default parameters are for Black-throated Gray Warbler (BTYW).
  <br>
